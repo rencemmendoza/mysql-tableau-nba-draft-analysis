@@ -1,1 +1,8 @@
-# mysql-tableau-nba-draft-analysis
+# nba-draft-analysis
+NBA Draft Data Analysis and Visualization using MySQL, Python, and Tableau
+
+This project analyzes NBA draft data to explore player performance, college contributions, and trends over the years. The dataset includes player information, draft year, college attended, and career statistics such as points per game, rebounds, assists, minutes played, and advanced metrics including win shares, box plus-minus, and value over replacement, as well as shooting percentages.
+
+The workflow begins with cleaning the raw dataset using Python, addressing missing values, replacing nulls with appropriate placeholders, and ensuring numerical consistency. The data is then transferred to MySQL, where custom tables for players, drafts, teams, and colleges were created. SQL queries are used to extract, aggregate, and rank player performance metrics, including identifying top contributing players from each college, best players by PPG in each draft, and top PPG in the NBA by college. Three key SQL queries were then exported to Tableau for visualizations, creating interactive dashboards that highlight trends across draft years, college contributions, and individual player performance. The visualizations include bar charts, line charts, and dual-axis charts.
+
+Through this project, I gained hands-on experience in cleaning and preprocessing sports datasets with Python, performing SQL-based data aggregation and ranking, and building interactive Tableau dashboards with custom labels and dual-axis visualizations. The project provides insights into draft trends, college contributions, and player performance, and demonstrates how to combine Python, SQL, and Tableau for an end-to-end sports analytics workflow.
